@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 from email.message import EmailMessage
 from generate_report_simple import create_analytics_report
 
-path = r"C:\Users\92304\OneDrive - BLUE HORIZON CO. LTD\DS\WebScraping\CovidAnalysis" # insert your own path here
+path = r"C:\Users\92304\OneDrive - BLUE HORIZON CO. LTD\DS\Automation\CovidAnalysisReport" # insert your own path here
 
 EMAIL_ADDRESS = "hassilw34@gmail.com"
 EMAIL_PASSWORD = os.environ.get('EMAIL_PASS')
