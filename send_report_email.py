@@ -25,5 +25,5 @@ with open(f'{path}/report_simple.pdf', 'rb') as f:
 msg.add_attachment(data, filename='report_simple.pdf', maintype='application/pdf', subtype='pdf')
 
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-    smtp.login(EMAIL_ADDRESS, "Qusnumpy1")
+    smtp.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
     smtp.send_message(msg)
