@@ -7,7 +7,7 @@ from generate_report_simple import create_analytics_report
 def lambda_handler(event, context):
   path = "" # insert your own path here
 
-  EMAIL_ADDRESS = "hassilw34@gmail.com"
+  EMAIL_ADDRESS = "**@gmail.com"
   EMAIL_PASSWORD = os.environ.get('EMAIL_PASS')
 
   msg = EmailMessage()
